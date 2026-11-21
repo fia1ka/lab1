@@ -13,7 +13,9 @@ $output = $headers ? implode("\n", $headers) : "Не удалось получи
 <body>
 
 <header>
-    <div class="logo">МосПолитех</div>
+    <div class="logo">
+        <img src="logo.png" alt="МосПолитех">
+    </div>
     <h1>Feedback form</h1>
 </header>
 

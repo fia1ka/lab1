@@ -8,13 +8,15 @@
 <body>
 
 <header>
-    <div class="logo">МосПолитех</div>
+    <div class="logo">
+        <img src="logo.png" alt="МосПолитех">
+    </div>
     <h1>Feedback form</h1>
 </header>
 
 <main>
     <h2>Форма обратной связи</h2>
-    <form action="https://httpbin.org/post" method="POST">
+    <form action="https://httpbin.org" method="POST">
         <label>Имя пользователя:
             <input type="text" name="username" required placeholder="Введите имя">
         </label>
